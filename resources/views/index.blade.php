@@ -33,5 +33,8 @@
             @endforeach
         </tbody>
     </table>
+
+    <a href="{{ route('welcome') }}">Volver a Inicio</a>
+
 </body>
 </html>
