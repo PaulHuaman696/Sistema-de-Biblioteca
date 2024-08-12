@@ -1,0 +1,17 @@
+{
+    "name_biblioteca": "Pool Library",
+    "ubicacion": "Jr. Amazonas 541",
+    "horario": {
+        "lunes_viernes": "8am - 2pm",
+        "sabado": "9am - 1pm",
+        "domingo": "cerrado"
+    },
+    "dbname": "pool_library",
+    "host": "127.0.0.1",
+    "usuario": "root",
+    "contraseña": "",
+    "max_dias_prestamo": 7,
+    "multaXdia": 5.00,
+    "notificarXcorreo": "user@gmail.com",
+    "notificarXtelefono": "952164321"
+}
