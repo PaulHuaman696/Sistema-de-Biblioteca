@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('autor');
             $table->decimal('precio');
             $table->integer('anyo');
+            $table->integer('stock');
             $table->timestamps();
             $table->softDeletes();
         });

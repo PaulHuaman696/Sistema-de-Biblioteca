@@ -32,7 +32,8 @@ class LibroController extends Controller
             'titulo' => $params['titulo'],
             'autor' => $params['autor'],
             'precio' => $params['precio'],
-            'anyo' => $params['anyo']
+            'anyo' => $params['anyo'],
+            'stock' => $params['stock']
         ]);
         return $libro;
     }
@@ -54,7 +55,8 @@ class LibroController extends Controller
         $libro = Libro::find($id)->update([
             'titulo' => $params['titulo'],
             'precio' => $params['precio'],
-            'anyo' => $params['anyo']
+            'anyo' => $params['anyo'],
+            'stock' => $params['stock']
         ]);
         return $libro ? 'El libro fue actualizado ' : 'no se pudo';
     }

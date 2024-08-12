@@ -17,7 +17,8 @@ class Libro extends Model
         'titulo',
         'autor',
         'precio',
-        'anyo'
+        'anyo',
+        'stock'
     ];
 
     
